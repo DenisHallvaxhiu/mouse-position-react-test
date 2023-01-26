@@ -12,6 +12,7 @@ const withMousePosition = (WrappedComponent) =>{
 
       const handleMousePositionChange = (e) =>{
         setMousePosition({
+          // Remember the clientX and clientY
           x: e.clientX,
           y: e.clientY
         })
